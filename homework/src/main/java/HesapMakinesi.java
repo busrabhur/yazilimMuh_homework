@@ -7,8 +7,12 @@ public class HesapMakinesi {
     }
  
     public void bolme(int a,int b){
-        double bolme=a/b;
-        System.out.println("bölüm:"+bolme);
-    }
+        if (b==0) {
+            System.out.println("bölen 0 olamaz");
+        }
+        else{
+            double bolme=a/b;
+            System.out.println("bölüm:"+bolme);
+    }}
     
 }

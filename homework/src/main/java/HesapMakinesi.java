@@ -6,5 +6,9 @@ public class HesapMakinesi {
         System.out.println("toplam:" +toplam );
     }
  
+    public void bolme(int a,int b){
+        double bolme=a/b;
+        System.out.println("bölüm:"+bolme);
+    }
     
 }
